@@ -1,6 +1,6 @@
 body {
     background-size: auto;
-    background-color:beige;
+   background-color:beige;
     margin-top: 30px;
     margin: left 50px;
     padding-left: 20px;
@@ -8,14 +8,22 @@ body {
 
 }
 .title-image {
+    display:flex;
+    flex-direction: row;
     width: 200px;
     height: 200px;
-    border-radius: 10px  
+    border-radius: 10px;
+
+}
+
+.foto {
+    width: 15%;
 }
 
 .perfil {
     font-size: 40px;
     font-style:normal;
+    margin-left: 105;
     }
 
 .sobre-mim {
@@ -34,3 +42,16 @@ body {
     opacity: 30%;
     text-align: center;
 }
+
+.text-main {
+    margin: 50pt;
+
+}
+
+/*aside {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+*/
