@@ -1,6 +1,6 @@
 body {
     background-size: auto;
-   background-color:beige;
+    background-color:beige;
     margin-top: 30px;
     margin: left 50px;
     padding-left: 20px;
@@ -9,17 +9,23 @@ body {
 }
 .title-image {
     display:flex;
-    flex-direction: row;
-    width: 200px;
+    justify-content:space-evenly;
     height: 200px;
-    border-radius: 10px;
-
+    
 }
 
-.foto {
-    width: 15%;
-}
+header img {
+    border-radius: 20%;
 
+}
+.enunciado  {
+    display: flex;
+    text-align:justify;
+    height: 500px;
+    padding-top:inherit;
+    padding: 30px;
+    
+}
 .perfil {
     font-size: 40px;
     font-style:normal;
@@ -35,6 +41,7 @@ body {
 
 .footer {
     background-color: rgb(207, 203, 198);
+
   
 }
 
@@ -42,16 +49,3 @@ body {
     opacity: 30%;
     text-align: center;
 }
-
-.text-main {
-    margin: 50pt;
-
-}
-
-/*aside {
-    display: inline-block;
-    vertical-align: top;
-
-
-}
-*/
